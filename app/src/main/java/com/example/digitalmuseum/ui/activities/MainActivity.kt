@@ -1,4 +1,4 @@
-package com.example.digitalmuseum
+package com.example.digitalmuseum.ui.activities
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
