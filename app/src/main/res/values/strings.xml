@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">DigitalMuseum</string>
+    <string name="failed">Failed to load the list.</string>
+    <string name="failed_to_load_list">Failed to load a list.</string>
+    <string name="no_internet_connection">No internet connection</string>
 </resources>

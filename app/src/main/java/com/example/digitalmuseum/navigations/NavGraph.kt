@@ -10,6 +10,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.digitalmuseum.constance.Constants
+import com.example.digitalmuseum.ui.screens.ArtHubScreen
 
 @ExperimentalFoundationApi
 @Composable
@@ -25,7 +26,7 @@ fun NavGraph(
     ) {
 
         composable(Destination.ArtHub.route) {
-            //
+            ArtHubScreen(navigation = navigation)
         }
 
         composable(Destination.ObjectsList.route){
